@@ -31,7 +31,7 @@ const UserData = () => {
             id: 5,
             name: 'Muhammad Bilal',
             dob: '--------------',
-            address: 'Yakeen Khana, Lahore'
+            address: 'Yateem Khana, Lahore'
         }
     ]
 
