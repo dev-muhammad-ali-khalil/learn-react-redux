@@ -1,10 +1,12 @@
 import React from 'react'
-import UserData from './components/UserData'
+import HomeContainer from './containers/HomeContainer'
+// import UserData from './components/UserData'
 
 const App = () => {
   return (
     <div>
-      <UserData />
+      <HomeContainer />
+      {/* <UserData /> */}
     </div>
   )
 }
