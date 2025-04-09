@@ -3,7 +3,7 @@ import { addToCart } from '../services/actions/actions'
 import Home from '../components/Home'
 
 const mapStateToProps = state => ({
-
+    cardData: state
 })
 
 const mapDispatchToProps = dispatch => ({

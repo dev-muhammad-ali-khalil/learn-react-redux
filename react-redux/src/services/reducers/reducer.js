@@ -1,14 +1,16 @@
 import { add_to_cart, remove_from_cart } from "../constants"
 
 const initialState = {
-    cardData: []
+    cardData: [],
+    totalCount: 0,
+    totalPrice: 0
 }
 
 const cardItems = (state = initialState, action) => {
     switch (action.type) {
         case add_to_cart:
             return {
-                ...state, cardData: action.data
+                ...state, cardData: [...state.cardData, action.data]
             }
         default:
             return state
