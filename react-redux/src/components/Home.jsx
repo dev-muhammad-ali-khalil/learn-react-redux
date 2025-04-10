@@ -75,7 +75,7 @@ const Home = (props) => {
                                 </div>
                                 <div style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
                                     <button style={{ backgroundColor: '#D00000', border: 'none', padding: '9px', borderRadius: '2px', boxShadow: '0px 0px 1px #D00000', color: '#ffffff', fontWeight: 'bold', cursor: 'pointer' }} onClick={() => addToCartButtonHandler(item)}>Add To Cart</button>
-                                    <button style={{ backgroundColor: '#D00000', border: 'none', padding: '9px', borderRadius: '2px', boxShadow: '0px 0px 1px #D00000', color: '#ffffff', fontWeight: 'bold', cursor: 'pointer' }} onClick={() => removeFromCartButtonHandler(item.id)}>Remove From Cart</button>
+                                    <button style={{ backgroundColor: '#673AB7', border: 'none', padding: '9px', borderRadius: '2px', boxShadow: '0px 0px 1px #673AB7', color: '#ffffff', fontWeight: 'bold', cursor: 'pointer' }} onClick={() => removeFromCartButtonHandler(item.id)}>Remove From Cart</button>
                                 </div>
                             </div>
                         ))

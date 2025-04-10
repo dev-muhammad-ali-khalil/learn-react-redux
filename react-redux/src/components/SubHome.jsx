@@ -14,7 +14,7 @@ const SubHome = () => {
                 Total Price: {productList.totalPrice}
             </div>
             <div>
-                Selected Item:
+                Selected Items:
                 {
                     productList.cardData.map((item) => (
                         <div key={item.id}>

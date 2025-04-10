@@ -10,8 +10,15 @@ const cardItems = (state = initialState, action) => {
     switch (action.type) {
         case add_to_cart:
             return {
-                ...state, cardData: [...state.cardData, action.data]
+                ...state,
+                cardData: [...state.cardData, action.data]
             }
+        case remove_from_cart:
+            return {
+                ...state,
+                cardData: state.cardData.filter(item => item.id !== action.id)
+            }
+
         default:
             return state
 

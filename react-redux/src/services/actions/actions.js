@@ -10,6 +10,6 @@ export const addToCart = (data) => {
 export const removeFromCart = (id) => {
     return {
         type: remove_from_cart,
-        data: id
+        id: id
     }
 }
